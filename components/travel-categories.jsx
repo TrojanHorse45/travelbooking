@@ -36,24 +36,7 @@ export default function TravelCategories() {
       href: "/itinerary",
       color: "from-emerald-500 to-teal-500",
     },
-    {
-      name: "Adventure",
-      icon: <Compass className="w-6 h-6" />,
-      href: "/adventure",
-      color: "from-blue-500 to-violet-500",
-    },
-    {
-      name: "Beach",
-      icon: <Umbrella className="w-6 h-6" />,
-      href: "/beach",
-      color: "from-cyan-500 to-sky-500",
-    },
-    {
-      name: "Mountain",
-      icon: <Mountain className="w-6 h-6" />,
-      href: "/mountain",
-      color: "from-lime-500 to-green-500",
-    },
+    
   ]
 
   const containerVariants = {

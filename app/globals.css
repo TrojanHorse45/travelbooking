@@ -88,3 +88,50 @@
 .gradient-text {
   @apply text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-400;
 }
+/* Calendar dark mode override */
+/* Custom dark theme for react-day-picker */
+.rdp {
+  --rdp-cell-size: 38px;
+  --rdp-accent-color: #6366f1; /* indigo-500 */
+  --rdp-background-color: #1f2937; /* gray-800 */
+  --rdp-text-color: #f3f4f6; /* gray-100 */
+  --rdp-hover-color: #4f46e5; /* indigo-600 */
+
+  background-color: #1f2937;
+  color: var(--rdp-text-color);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.rdp-month {
+  background-color: transparent;
+}
+
+.rdp-caption_label {
+  color: #f3f4f6;
+  font-weight: 600;
+}
+
+.rdp-head_cell {
+  color: #e5e7eb;
+  font-weight: 700;
+}
+
+.rdp-day {
+  color: #f3f4f6;
+}
+
+.rdp-day_outside {
+  color: #6b7280; /* gray-500 */
+}
+
+.rdp-day_selected {
+  background-color: var(--rdp-accent-color);
+  color: white;
+}
+
+.rdp-day:hover {
+  background-color: var(--rdp-hover-color);
+  color: white;
+}
+

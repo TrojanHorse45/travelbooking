@@ -14,7 +14,7 @@ export default function PopularPackages() {
     {
       id: 1,
       name: "European Adventure",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "https://source.unsplash.com/600x400/?europe,travel",
       duration: "10 days",
       people: "2-4",
       date: "All year",
@@ -28,8 +28,8 @@ export default function PopularPackages() {
     {
       id: 2,
       name: "Asian Explorer",
-      image: "/placeholder.svg?height=400&width=600",
-      duration: "14 days",
+      image: "https://source.unsplash.com/600x400/?asia,temples",
+      duration: "14 days",  
       people: "2-6",
       date: "Sep - Mar",
       location: "Thailand, Vietnam, Cambodia",
@@ -41,7 +41,7 @@ export default function PopularPackages() {
     {
       id: 3,
       name: "African Safari",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "https://source.unsplash.com/600x400/?safari,africa",
       duration: "7 days",
       people: "2-8",
       date: "Jun - Oct",
@@ -98,7 +98,7 @@ export default function PopularPackages() {
           <div className="overflow-hidden transition-all duration-300 rounded-xl glass-card hover:shadow-lg">
             <div className="relative h-48 overflow-hidden">
               <Image
-                src={pkg.image || "/placeholder.svg"}
+                src={pkg.image}
                 alt={pkg.name}
                 fill
                 className="object-cover transition-transform duration-500 hover:scale-110"
